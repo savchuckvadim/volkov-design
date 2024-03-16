@@ -32,9 +32,11 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
     <>
       <nav className="navbar change navbar-expand-lg" ref={navbarRef}>
         <div className="container">
-          <Link href="/demos">
+          <Link href="/">
             <a className={`logo ${logoClass && logoClass}`}>
-              <img src={appData.lightLogo} alt="logo" ref={logoRef} />
+              {/* <img src={appData.lightLogo} alt="logo" ref={logoRef} />
+               */}
+              <h2  ref={logoRef}>Volkov</h2>
             </a>
           </Link>
 
@@ -55,7 +57,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item dropdown" onClick={handleDropdown}>
+              {/* <li className="nav-item dropdown" onClick={handleDropdown}>
                 <span
                   className="nav-link dropdown-toggle"
                   data-toggle="dropdown"
@@ -88,6 +90,15 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                     <a className="dropdown-item">Architecture Light</a>
                   </Link>
                 </div>
+              </li> */}
+
+
+
+
+              <li className="nav-item">
+                <Link href="/home1">
+                  <a className="nav-link">Home</a>
+                </Link>
               </li>
               <li className="nav-item">
                 <Link href="/about">
