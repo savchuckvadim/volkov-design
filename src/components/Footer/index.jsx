@@ -16,29 +16,29 @@ const Footer = ({ classText }) => {
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
-                    <h6>Officeal Address</h6>
-                    <p>504 White St . Dawsonville, GA 30534 , New York</p>
+                    <h6>Address</h6>
+                    <p>Herengracht 545, 1017 BW Amsterdam </p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>support@gmail.com</p>
+                    <p>volkovgoods@gmail.com</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
-                    <p>+87986451666</p>
+                    <p>+31 6 41 47 67 81</p>
                   </div>
                 </li>
               </ul>
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="item md-mb50">
+            {/* <div className="item md-mb50">
               <div className="title">
                 <h5>Recent News</h5>
               </div>
@@ -91,12 +91,15 @@ const Footer = ({ classText }) => {
                   </div>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">
-                <img src="/assets/img/logo-light.png" alt="" />
+                {/* <img src="/assets/img/logo-light.png" alt="" /> */}
+                <h3>
+                  Volkov Design
+                </h3>
               </div>
               <div className="social">
                 <Link href="#">
@@ -104,26 +107,26 @@ const Footer = ({ classText }) => {
                     <i className="fab fa-facebook-f"></i>
                   </a>
                 </Link>
-                <Link href="#">
+                {/* <Link href="#">
                   <a>
                     <i className="fab fa-twitter"></i>
                   </a>
-                </Link>
+                </Link> */}
                 <Link href="#">
                   <a>
                     <i className="fab fa-instagram"></i>
                   </a>
                 </Link>
-                <Link href="#">
+                {/* <Link href="#">
                   <a>
                     <i className="fab fa-youtube"></i>
                   </a>
-                </Link>
+                </Link> */}
               </div>
               <div className="copy-right">
                 <p>
-                  © 2022, Arch Template. Made with passion by
-                  <Link href="#">ThemesCamp</Link>.
+                  © 2024, Modern interiors. Made with passion by
+                  <Link href="#">Kostya Volkov</Link>.
                 </p>
               </div>
             </div>

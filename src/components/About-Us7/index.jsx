@@ -8,12 +8,13 @@ const AboutUs7 = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="cont">
-              <h2>Creative Solutions by Professional Designers</h2>
+              <h2>From Idea to Reality: We Manage Every Step. Design, Budgeting, and Peace of Mind – All in One Place!</h2>
               <p>
-                Cras vel cursus libero. Vestibulum porttitor nunc enim, quis
-                congue leo fringilla ut. Quisque in lacus lacus. Nunc malesuada
-                nisi at porta convallis. In posuere interdum erat, et bibendum
-                arcu. Etiam quis viverra diam.
+                At our studio, we don&apos;t just create beautiful designs;
+                we handle every aspect of your renovation journey.
+                From initial concepts to final touches, we&apos;re here to ensure a seamless experience. Our team works closely with you to understand your vision,
+                needs, and budget, providing transparent estimates and managing expenses throughout.
+                With us, you can relax knowing your project is in capable hands.
               </p>
               <Link href="/about">
                 <a className="btn-curve btn-color mt-30">

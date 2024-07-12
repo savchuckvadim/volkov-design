@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
- const Services6 = () => {
+const Services6 = () => {
   return (
     <section className="services-feat section-padding">
       <div className="container">
@@ -18,8 +18,7 @@ import React from "react";
                 <div>
                   <h5>Architecture</h5>
                   <p>
-                    At vero eos et accusamus et iusto odio dignis simos ducimus
-                    qui blanditiis praesnti
+                    Elevate your space with our architectural design expertise.
                   </p>
                 </div>
               </div>
@@ -28,8 +27,7 @@ import React from "react";
                 <div>
                   <h5>Interior Design</h5>
                   <p>
-                    At vero eos et accusamus et iusto odio dignis simos ducimus
-                    qui blanditiis praesnti
+                    From innovative concepts to precise blueprints, we craft spaces that inspire and endure.
                   </p>
                 </div>
               </div>
@@ -38,8 +36,7 @@ import React from "react";
                 <div>
                   <h5>3D Modeling</h5>
                   <p>
-                    At vero eos et accusamus et iusto odio dignis simos ducimus
-                    qui blanditiis praesnti
+                    Immerse yourself in the future of design with our cutting-edge 3D visualization services.
                   </p>
                 </div>
               </div>

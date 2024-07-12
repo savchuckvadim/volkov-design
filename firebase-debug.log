@@ -1,0 +1,74 @@
+[debug] [2024-05-02T08:18:18.147Z] ----------------------------------------------------------------------
+[debug] [2024-05-02T08:18:18.149Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\savch\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-05-02T08:18:18.149Z] CLI Version:   13.3.1
+[debug] [2024-05-02T08:18:18.149Z] Platform:      win32
+[debug] [2024-05-02T08:18:18.150Z] Node Version:  v18.17.0
+[debug] [2024-05-02T08:18:18.150Z] Time:          Thu May 02 2024 15:18:18 GMT+0700 (Novosibirsk Standard Time)
+[debug] [2024-05-02T08:18:18.151Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-02T08:18:18.165Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-05-02T08:18:18.335Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-02T08:18:18.336Z] > authorizing via signed-in user (savchuckvadim@gmail.com)
+[debug] [2024-05-02T08:18:18.336Z] [iam] checking project volkov-design for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]
+[debug] [2024-05-02T08:18:18.337Z] > refreshing access token with scopes: []
+[debug] [2024-05-02T08:18:18.338Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-05-02T08:18:18.338Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-05-02T08:18:18.500Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-05-02T08:18:18.501Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-05-02T08:18:18.525Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/volkov-design:testIamPermissions [none]
+[debug] [2024-05-02T08:18:18.525Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/volkov-design:testIamPermissions x-goog-quota-user=projects/volkov-design
+[debug] [2024-05-02T08:18:18.525Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/volkov-design:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]}
+[debug] [2024-05-02T08:18:18.617Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-05-02T08:18:18.617Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-05-02T08:18:19.253Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/volkov-design:testIamPermissions 200
+[debug] [2024-05-02T08:18:19.253Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/volkov-design:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]}
+[debug] [2024-05-02T08:18:19.254Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/volkov-design/serviceAccounts/volkov-design@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2024-05-02T08:18:19.254Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/volkov-design/serviceAccounts/volkov-design@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2024-05-02T08:18:20.021Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/volkov-design/serviceAccounts/volkov-design@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2024-05-02T08:18:20.021Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/volkov-design/serviceAccounts/volkov-design@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2024-05-02T08:18:20.023Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/volkov-design [none]
+[debug] [2024-05-02T08:18:20.307Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/volkov-design 200
+[debug] [2024-05-02T08:18:20.307Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/volkov-design {"projectId":"volkov-design","projectNumber":"651000249937","displayName":"Volkov design","name":"projects/volkov-design","resources":{"hostingSite":"volkov-design","realtimeDatabaseInstance":"volkov-design-default-rtdb","storageBucket":"volkov-design.appspot.com","locationId":"europe-west"},"state":"ACTIVE","etag":"1_903e9cee-36db-4f3d-b088-6605bbc1a075"}
+[debug] [2024-05-02T08:18:20.307Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/volkov-design [none]
+[debug] [2024-05-02T08:18:20.583Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/volkov-design 200
+[debug] [2024-05-02T08:18:20.583Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/volkov-design {"projectId":"volkov-design","projectNumber":"651000249937","displayName":"Volkov design","name":"projects/volkov-design","resources":{"hostingSite":"volkov-design","realtimeDatabaseInstance":"volkov-design-default-rtdb","storageBucket":"volkov-design.appspot.com","locationId":"europe-west"},"state":"ACTIVE","etag":"1_903e9cee-36db-4f3d-b088-6605bbc1a075"}
+[debug] [2024-05-02T08:18:27.271Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/volkov-design/sites pageToken=&pageSize=10
+[debug] [2024-05-02T08:18:28.540Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/volkov-design/sites 200
+[debug] [2024-05-02T08:18:28.541Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/volkov-design/sites {"sites":[{"name":"projects/volkov-design/sites/volkov-design","defaultUrl":"https://volkov-design.web.app","appId":"1:651000249937:web:9a844b8fa025f3dbe48270","type":"DEFAULT_SITE"}]}
+[debug] [2024-05-02T08:18:28.543Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:651000249937:web:9a844b8fa025f3dbe48270/config [none]
+[debug] [2024-05-02T08:18:29.343Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:651000249937:web:9a844b8fa025f3dbe48270/config 200
+[debug] [2024-05-02T08:18:29.343Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:651000249937:web:9a844b8fa025f3dbe48270/config {"projectId":"volkov-design","appId":"1:651000249937:web:9a844b8fa025f3dbe48270","databaseURL":"https://volkov-design-default-rtdb.europe-west1.firebasedatabase.app","storageBucket":"volkov-design.appspot.com","locationId":"europe-west","apiKey":"AIzaSyDVDE0g1cOHf4UJm7TGUwE25ObTfJMXgZ4","authDomain":"volkov-design.firebaseapp.com","messagingSenderId":"651000249937","measurementId":"G-GR419W2YZG"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-05-02T08:18:46.555Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/volkov-design/sites/volkov-design [none]
+[debug] [2024-05-02T08:18:47.035Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/volkov-design/sites/volkov-design 200
+[debug] [2024-05-02T08:18:47.035Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/volkov-design/sites/volkov-design {"name":"projects/volkov-design/sites/volkov-design","defaultUrl":"https://volkov-design.web.app","appId":"1:651000249937:web:9a844b8fa025f3dbe48270","type":"DEFAULT_SITE"}
+[info] info  - Checking validity of types...
+
+[info] info  - Creating an optimized production build...
+
+[info] Failed to compile.
+
+
+[info] ./public/assets/img/works/curs/1.jpg
+TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11576:11)
+
+Import trace for requested module:
+./src/services/firebase-api/firebase-store-api.js
+./src/pages/index.js
+
+
+> Build failed because of webpack errors
+
+[debug] [2024-05-02T08:18:57.100Z] Error: ENOENT: no such file or directory, open 'C:\Projects\Kostya\volkov-design\.next\export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.

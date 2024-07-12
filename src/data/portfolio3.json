@@ -43,35 +43,5 @@
         "name": "Modern"
       }
     ]
-  },
-  {
-    "id": 4,
-    "image": "/assets/img/works/curs/4.jpg",
-    "title": "Modern Townhouse",
-    "tags": [
-      {
-        "id": 1,
-        "name": "Architecture"
-      },
-      {
-        "id": 2,
-        "name": "Modern"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "image": "/assets/img/works/curs/5.jpg",
-    "title": "Modern Townhouse",
-    "tags": [
-      {
-        "id": 1,
-        "name": "Architecture"
-      },
-      {
-        "id": 2,
-        "name": "Modern"
-      }
-    ]
   }
 ]

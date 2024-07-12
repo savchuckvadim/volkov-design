@@ -19,7 +19,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
       });
     e.target.parentElement.classList.toggle("show");
     e.target.setAttribute("aria-expanded", true);
-    e.target.parentElement.childNodes[1].classList.toggle("show");
+    e.target.parentElement.childNodes[0].classList.toggle("show");
   };
 
   const handleMobileDropdown = (e) => {
@@ -32,11 +32,14 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
     <>
       <nav className="navbar change navbar-expand-lg" ref={navbarRef}>
         <div className="container">
-          <Link href="/">
+          <Link href="/home">
             <a className={`logo ${logoClass && logoClass}`}>
-              {/* <img src={appData.lightLogo} alt="logo" ref={logoRef} />
-               */}
-              <h2  ref={logoRef}>Volkov</h2>
+              {/* <img src={appData.lightLogo} alt="logo" ref={logoRef} /> */}
+             <h3
+             style={{
+              'fontSize' : '19px'
+             }}
+             >Volkov Design</h3> 
             </a>
           </Link>
 
@@ -57,8 +60,25 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              {/* <li className="nav-item dropdown" onClick={handleDropdown}>
-                <span
+              {/* <li className="nav-item dropdown" onClick={handleDropdown}> */}
+              <li className="nav-item">
+                {/* <span
+                  
+                  // data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                > */}
+                <Link href="/home">
+                  <a className="nav-link" >Home</a>
+                </Link>
+                {/* </span> */}
+
+
+
+
+
+                {/* <span
                   className="nav-link dropdown-toggle"
                   data-toggle="dropdown"
                   role="button"
@@ -89,24 +109,21 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   <Link href="/home3">
                     <a className="dropdown-item">Architecture Light</a>
                   </Link>
-                </div>
-              </li> */}
-
-
-
-
-              <li className="nav-item">
-                <Link href="/home1">
-                  <a className="nav-link">Home</a>
-                </Link>
+                </div> */}
               </li>
               <li className="nav-item">
                 <Link href="/about">
                   <a className="nav-link">About</a>
                 </Link>
               </li>
-              <li className="nav-item dropdown" onClick={handleDropdown}>
-                <span
+              <li className="nav-item">
+                <Link href="/work">
+                  <a className="nav-link">Portfolio</a>
+                </Link>
+
+
+
+                {/* <span
                   className="nav-link dropdown-toggle"
                   data-toggle="dropdown"
                   href="#"
@@ -129,9 +146,9 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   <Link href="/project-details">
                     <a className="dropdown-item">Single Project</a>
                   </Link>
-                </div>
+                </div> */}
               </li>
-              <li className="nav-item dropdown" onClick={handleDropdown}>
+              {/* <li className="nav-item dropdown" onClick={handleDropdown}>
                 <span
                   className="nav-link dropdown-toggle"
                   data-toggle="dropdown"
@@ -150,7 +167,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                     <a className="dropdown-item">Post Details</a>
                   </Link>
                 </div>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link href="/contact">
                   <a className="nav-link">Contact</a>
