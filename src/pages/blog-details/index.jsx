@@ -1,14 +1,14 @@
 import React from "react";
-import MainLayout from "../../layouts/main";
 import PageHeader from "../../components/Page-header";
 import PostDetails from "../../components/Post-details";
+import MainSkin from "src/layouts/main-skin";
 
 const BlogDetails = () => {
   React.useEffect(() => {
     document.querySelector('body').classList.add('index3')
   }, [])
   return (
-    <MainLayout>
+    <MainSkin>
       <PageHeader
         title="post details"
         fullPath={[
@@ -18,7 +18,7 @@ const BlogDetails = () => {
         ]}
       />
       <PostDetails />
-    </MainLayout>
+    </ MainSkin>
   );
 };
 

@@ -3,7 +3,7 @@ import Blogs5 from "../../components/Blogs5";
 import Intro5 from "../../components/Intro5";
 import MainSkin from "../../layouts/main-skin";
 import Process2 from "../../components/Process2";
-import AboutUs7 from "../../components/About-Us7";
+import AboutUs5 from "../../components/About-Us5";
 import Services6 from "../../components/Services6";
 import Portfolio3 from "../../components/Portfolio3";
 import SkillsCircle2 from "../../components/Skills-Circle2";
@@ -16,7 +16,7 @@ const Home6 = () => {
   return (
     <MainSkin>
       <Intro5 />
-      <AboutUs7 />
+      <AboutUs5 />
       <Portfolio3 />
       <Process2 />
       <Services6 />

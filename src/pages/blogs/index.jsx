@@ -1,14 +1,14 @@
 import React from 'react'
-import MainLayout from '../../layouts/main'
 import PageHeader from '../../components/Page-header'
 import BlogsList from '../../components/Blogs-List'
+import MainSkin from 'src/layouts/main-skin'
 
 const Blogs = () => {
   React.useEffect(() => {
     document.querySelector('body').classList.add('index3')
   }, [])
     return (
-      <MainLayout>
+      <MainSkin>
         <PageHeader
           title="Our Blogs"
           fullPath={[
@@ -17,7 +17,7 @@ const Blogs = () => {
           ]}
         />
         <BlogsList />
-      </MainLayout>
+      </MainSkin>
     );
 }
 

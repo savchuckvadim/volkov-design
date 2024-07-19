@@ -5,6 +5,7 @@ import PageHeader from "../../components/Page-header";
 import ProjectIntro from "../../components/Project-Intro";
 import NextProject from "../../components/Next-Project";
 import ProjectVideo from "../../components/Project-Video";
+import MainSkin from "src/layouts/main-skin";
 
 const ProjectDetails = () => {
 
@@ -12,7 +13,7 @@ const ProjectDetails = () => {
     document.querySelector("body").classList.add("index3");
   }, []);
   return (
-    <MainLayout>
+    <MainSkin>
       <PageHeader
         title="Luxury Furniture"
         fullPath={[
@@ -56,7 +57,7 @@ const ProjectDetails = () => {
       </section>
 
       <NextProject />
-    </MainLayout>
+    </MainSkin>
   );
 };
 

@@ -3,13 +3,14 @@ import PageHeader from "../../components/Page-header";
 import ContactInfo from "../../components/Contact-info";
 import ContactWithMap from "../../components/Contact-with-map";
 import MainLayout from "../../layouts/main";
+import MainSkin from "src/layouts/main-skin";
 
 const Contact = () => {
    React.useEffect(() => {
      document.querySelector("body").classList.add("index3");
    }, []);
   return (
-    <MainLayout>
+    <MainSkin>
       <PageHeader
         title="Contact Us"
         fullPath={[
@@ -22,7 +23,7 @@ const Contact = () => {
         <ContactInfo />
         <ContactWithMap />
       </section>
-    </MainLayout>
+    </MainSkin>
   );
 };
 
