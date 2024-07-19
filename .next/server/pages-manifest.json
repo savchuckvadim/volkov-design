@@ -1,0 +1,23 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.html",
+  "/blog-details": "pages/blog-details.html",
+  "/blogs": "pages/blogs.html",
+  "/contact": "pages/contact.html",
+  "/demos": "pages/demos.html",
+  "/home1": "pages/home1.html",
+  "/home2": "pages/home2.html",
+  "/home3": "pages/home3.html",
+  "/home4": "pages/home4.html",
+  "/home5": "pages/home5.html",
+  "/home7": "pages/home7.html",
+  "/home": "pages/home.html",
+  "/": "pages/index.html",
+  "/project-details": "pages/project-details.html",
+  "/work1": "pages/work1.html",
+  "/work2": "pages/work2.html",
+  "/work": "pages/work.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}

@@ -5,25 +5,23 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/axRioAJoDM-Jl-5_yLKUC/_buildManifest.js",
-    "static/axRioAJoDM-Jl-5_yLKUC/_ssgManifest.js",
-    "static/axRioAJoDM-Jl-5_yLKUC/_middlewareManifest.js"
+    "static/GZaXYQM98lyHF4UwzS-kq/_buildManifest.js",
+    "static/GZaXYQM98lyHF4UwzS-kq/_ssgManifest.js",
+    "static/GZaXYQM98lyHF4UwzS-kq/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
       "static/chunks/webpack-49b6f2937c9ce9f4.js",
       "static/chunks/framework-91d7f78b5b4003c8.js",
       "static/chunks/main-8a41031e1038fac7.js",
-      "static/chunks/7112840a-9faf3629c9df27b3.js",
       "static/chunks/444-bb7085241cefe320.js",
       "static/css/80bcc9198cde6f5a.css",
       "static/chunks/52-a47fcdf012df8795.js",
       "static/chunks/104-359634e5d42282f8.js",
-      "static/chunks/769-fb60332c3ffb84a4.js",
-      "static/chunks/177-7f6107f812bab6a7.js",
-      "static/chunks/239-62cf45830126d419.js",
+      "static/chunks/177-3ddcc46b4ac94297.js",
+      "static/chunks/239-cf8fca1c5a5ac6eb.js",
       "static/css/5766309f04d882d4.css",
-      "static/chunks/pages/index-6435ce04cff5221b.js"
+      "static/chunks/pages/index-4e3dd04efef9ba4f.js"
     ],
     "/_app": [
       "static/chunks/webpack-49b6f2937c9ce9f4.js",
@@ -71,8 +69,8 @@
       "static/chunks/webpack-49b6f2937c9ce9f4.js",
       "static/chunks/framework-91d7f78b5b4003c8.js",
       "static/chunks/main-8a41031e1038fac7.js",
-      "static/chunks/239-62cf45830126d419.js",
-      "static/chunks/pages/demos-4fdc9e6a62146a69.js"
+      "static/chunks/239-cf8fca1c5a5ac6eb.js",
+      "static/chunks/pages/demos-37ab0220808f94b2.js"
     ],
     "/home": [
       "static/chunks/webpack-49b6f2937c9ce9f4.js",
@@ -82,9 +80,9 @@
       "static/css/80bcc9198cde6f5a.css",
       "static/chunks/52-a47fcdf012df8795.js",
       "static/chunks/104-359634e5d42282f8.js",
-      "static/chunks/177-7f6107f812bab6a7.js",
+      "static/chunks/177-3ddcc46b4ac94297.js",
       "static/css/5766309f04d882d4.css",
-      "static/chunks/pages/home-a515ed65b65772a0.js"
+      "static/chunks/pages/home-9f570a54b25daaa5.js"
     ],
     "/home1": [
       "static/chunks/webpack-49b6f2937c9ce9f4.js",
