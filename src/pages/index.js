@@ -1,20 +1,28 @@
 import { useEffect } from "react";
-import Demos from "./demos";
-import Home6 from "./home";
-import { uploadImage } from "src/services/firebase-api/firebase-store-api";
-// import testImg from '../../public/assets/img/works/curs/1.jpg';
+
+import MainSkin from "src/layouts/main-skin";
+import Intro5 from "src/components/Intro5";
+import AboutUs5 from "src/components/About-Us5";
+import Portfolio3 from "src/components/Portfolio3";
+import Process2 from "src/components/Process2";
+import Services6 from "src/components/Services6";
 
 
-export default function Home({id}) {
-  // return <Demos />;
-  // useEffect(() => {
-  //   const funct = async () => {
-  //     const result = await uploadImage()
-  //     console.log(result)
-  //     debugger
-  //   }
+export default function Home({ id }) {
+  useEffect(() => {
+    document.querySelector("body").classList.add("index2");
+  }, []);
 
-  //   funct()
-  // }, [id])
-  return <Home6 />;
+  return (
+    <MainSkin>
+      <Intro5 />
+      <AboutUs5 />
+      <Portfolio3 />
+      <Process2 />
+      <Services6 />
+      {/* <VideoWithTestimonials /> */}
+      {/* <SkillsCircle2 /> */}
+      <Blogs5 />
+    </MainSkin>
+  );
 }
