@@ -6,6 +6,7 @@ import AboutUs5 from "src/components/About-Us5";
 import Portfolio3 from "src/components/Portfolio3";
 import Process2 from "src/components/Process2";
 import Services6 from "src/components/Services6";
+import Blogs5 from "src/components/Blogs5";
 
 
 export default function Home({ id }) {
